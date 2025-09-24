@@ -18,11 +18,4 @@ A beginner-friendly real-time chat application built with **Node.js, Express, So
 
 ![Chat UI Screenshot](public/chatss.png)
 
----
-
-## Prerequisites
-
-- Node.js (LTS) – [Download here](https://nodejs.org)
-- MySQL – [Download here](https://dev.mysql.com/downloads/)
-- VS Code (or any code editor) – [Download here](https://code.visualstudio.com)
 
