@@ -16,7 +16,7 @@ A beginner-friendly real-time chat application built with **Node.js, Express, So
 
 ## Screenshots
 
-![Chat UI Screenshot](screenshot.png) 
+![Chat UI Screenshot](Screenshot 2025-09-24 181550.png) 
 
 ---
 
@@ -26,11 +26,3 @@ A beginner-friendly real-time chat application built with **Node.js, Express, So
 - MySQL – [Download here](https://dev.mysql.com/downloads/)
 - VS Code (or any code editor) – [Download here](https://code.visualstudio.com)
 
----
-
-## Setup Instructions
-
-### 1. Clone or download the project
-```bash
-git clone https://github.com/YOUR_USERNAME/Simple_Chat_APP.git
-cd Simple_Chat_APP
