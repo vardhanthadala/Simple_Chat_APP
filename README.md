@@ -16,7 +16,7 @@ A beginner-friendly real-time chat application built with **Node.js, Express, So
 
 ## Screenshots
 
-![Chat UI Screenshot](Screenshot 2025-09-24 181550.png) 
+![Chat UI Screenshot](Screenshot%202025-09-24%20181550.png)
 
 ---
 
