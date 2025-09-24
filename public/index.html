@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Simple Chat UI</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="chat-wrapper">
+      <header class="chat-header">
+        <button id="backBtn" class="back-btn">←</button>
+        <div class="group-info">
+          <img
+            src="https://i.pravatar.cc/40?img=5"
+            alt="grp"
+            class="grp-avatar"
+          />
+          <div>
+            <div class="title">Fun Friday Group</div>
+            <div class="subtitle" id="subtitle">
+              You are appearing as Anonymous
+            </div>
+          </div>
+        </div>
+        <button id="profileBtn" class="profile-btn">☰</button>
+      </header>
+
+      <main id="messages" class="messages"></main>
+
+      <footer class="chat-input-area">
+        <input
+          id="username"
+          class="username-input"
+          placeholder="Name (optional)"
+          maxlength="30"
+        />
+        <form id="messageForm" class="compose">
+          <input
+            id="messageInput"
+            autocomplete="off"
+            placeholder="Type a message ..."
+          />
+          <button type="submit" class="send-btn">➤</button>
+        </form>
+      </footer>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
