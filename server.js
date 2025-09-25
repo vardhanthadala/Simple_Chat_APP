@@ -2,7 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const http = require("http");
 const { Server } = require("socket.io");
-const mysql = require("mysql2/promise");
+const mysql = require("mysql2/promise");  
 const path = require("path");
 
 const app = express();
