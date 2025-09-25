@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const messagesEl = document.getElementById("messages");
   const form = document.getElementById("messageForm");
   const input = document.getElementById("messageInput");
-  const usernameInput = document.getElementById("username");
+  const usernameInput = document.getElementById("username"); 
   const subtitle = document.getElementById("subtitle");
 
   usernameInput.addEventListener("input", () => {
